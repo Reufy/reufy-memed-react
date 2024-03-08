@@ -1,13 +1,17 @@
 {
   "name": "reufy-memed-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React library to integrate with memed",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
-  "author": "Reufy Memed",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Reufy/reufy-memed-react.git"
+  },
+  "author": "Reufy",
   "license": "MIT",
   "keywords": [
     "memed",
@@ -43,5 +47,8 @@
     "ghooks": {
       "pre-commit": "yarn prettier --check ./src && yarn lint && yarn build"
     }
+  },
+  "directories": {
+    "test": "tests"
   }
 }
