@@ -1,6 +1,6 @@
 {
   "name": "reufy-memed-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React library to integrate with memed",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -42,11 +42,6 @@
     "prettier": "^2.1.1",
     "react": "^17.0.1",
     "typescript": "^4.1.3"
-  },
-  "config": {
-    "ghooks": {
-      "pre-commit": "yarn prettier --check ./src && yarn lint && yarn build"
-    }
   },
   "directories": {
     "test": "tests"
