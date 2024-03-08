@@ -1,0 +1,51 @@
+{
+  "name": "memed-react-v2",
+  "version": "3.0.9",
+  "description": "React library to integrate with memed",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": "git@github.com:ViniciusAlberkovics/memed-react.git",
+  "author": "Jonatas Sales <jonatasvsales@gmail.com>",
+  "contributors": [
+    "Vinicius Alberkovics"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "memed",
+    "react memed",
+    "memed integracao"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext .ts,.tsx ./src"
+  },
+  "peerDependencies": {
+    "react": "16.8.x || 17.x"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-standard": "^4.0.1",
+    "ghooks": "^2.0.4",
+    "prettier": "^2.1.1",
+    "react": "^17.0.1",
+    "typescript": "^4.1.3"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "yarn prettier --check ./src && yarn lint && yarn build"
+    }
+  }
+}
