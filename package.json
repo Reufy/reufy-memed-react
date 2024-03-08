@@ -1,17 +1,13 @@
 {
-  "name": "memed-react-v2",
-  "version": "3.0.9",
+  "name": "reufy-memed-react",
+  "version": "1.0.0",
   "description": "React library to integrate with memed",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
-  "repository": "git@github.com:ViniciusAlberkovics/memed-react.git",
-  "author": "Jonatas Sales <jonatasvsales@gmail.com>",
-  "contributors": [
-    "Vinicius Alberkovics"
-  ],
+  "author": "Reufy Memed",
   "license": "MIT",
   "keywords": [
     "memed",
